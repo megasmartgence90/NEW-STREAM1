@@ -1,5 +1,0 @@
-output:
-  folder: streams
-  bestFolder: best
-  masterFolder: ''
-channels: []
