@@ -2,7 +2,7 @@
     "output": {
         "folder": "streams",
         "bestFolder": "best",
-        "masterFolder": "https://www.teve2.com.tr/canli-yayin"
+        "masterFolder": ""
     },
-    "channels": []
+    "channels": [https://www.teve2.com.tr/canli-yayin]
 }
