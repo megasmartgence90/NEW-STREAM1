@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -25,10 +26,19 @@ jobs:
         run: |
           python stream_updater.py config.json
 
-      - name: Commit changes
+      - name: Commit and push changes
+        env:
+          GIT_AUTHOR_NAME: "GitHub Actions"
+          GIT_AUTHOR_EMAIL: "actions@github.com"
+          GIT_COMMITTER_NAME: "GitHub Actions"
+          GIT_COMMITTER_EMAIL: "actions@github.com"
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config user.name "${GIT_AUTHOR_NAME}"
+          git config user.email "${GIT_AUTHOR_EMAIL}"
           git add streams/
-          git diff --cached --quiet || git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')" || true
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M')"
+            git push
+          else
+            echo "No changes to commit."
+          fi
