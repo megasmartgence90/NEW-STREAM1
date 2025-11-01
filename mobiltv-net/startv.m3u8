@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn502.freebroadcast.vip/startv720.m3u8?tkn=KM4GxDDycKRat5YEOJmJnw&tms=1762049324&hst=tr.mobiltv.net&ip=68.154.115.176&source=startv-master
+https://cdn506.freebroadcast.vip/startv720.m3u8?tkn=6UTfonwknkiQikuuOM_BgA&tms=1762052294&hst=tr.mobiltv.net&ip=52.176.139.84&source=startv-master
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn502.freebroadcast.vip/startv.m3u8?tkn=KM4GxDDycKRat5YEOJmJnw&tms=1762049324&hst=tr.mobiltv.net&ip=68.154.115.176&source=startv-master
+https://cdn506.freebroadcast.vip/startv.m3u8?tkn=6UTfonwknkiQikuuOM_BgA&tms=1762052294&hst=tr.mobiltv.net&ip=52.176.139.84&source=startv-master
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn502.freebroadcast.vip/startv360.m3u8?tkn=KM4GxDDycKRat5YEOJmJnw&tms=1762049324&hst=tr.mobiltv.net&ip=68.154.115.176&source=startv-master
+https://cdn506.freebroadcast.vip/startv360.m3u8?tkn=6UTfonwknkiQikuuOM_BgA&tms=1762052294&hst=tr.mobiltv.net&ip=52.176.139.84&source=startv-master
