@@ -10,8 +10,8 @@ LS_ACCOUNT_NUM_KEY = os.getenv("LS_ACCOUNT_NUM_KEY", "")
 LS_TOKEN_KEY = os.getenv("LS_TOKEN_KEY", "")
 
 # GitHub repository configuration
-GITHUB_USER = os.getenv("GITHUB_USER", "megasmartgence90")
-GITHUB_REPO = os.getenv("GITHUB_REPO", "NEW-STREAM1")
+GITHUB_USER = os.getenv("GITHUB_USER", "UzunMuhalefet")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "streams")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 BASE_URL = f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/refs/heads/{GITHUB_BRANCH}"
 
