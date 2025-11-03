@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn504.freebroadcast.vip/beyaztv720.m3u8?tkn=pdd8R1O2E6TdBeIpsxAC2w&tms=1762178910&hst=tv.ecanlitvizle.org&ip=40.76.181.209
+https://cdn504.freebroadcast.vip/beyaztv720.m3u8?tkn=Gz2ZcXg4JWz4JKdwJPq0ZA&tms=1762186315&hst=tv.ecanlitvizle.org&ip=52.159.229.57
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn504.freebroadcast.vip/beyaztv.m3u8?tkn=pdd8R1O2E6TdBeIpsxAC2w&tms=1762178910&hst=tv.ecanlitvizle.org&ip=40.76.181.209
+https://cdn504.freebroadcast.vip/beyaztv.m3u8?tkn=Gz2ZcXg4JWz4JKdwJPq0ZA&tms=1762186315&hst=tv.ecanlitvizle.org&ip=52.159.229.57
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn504.freebroadcast.vip/beyaztv360.m3u8?tkn=pdd8R1O2E6TdBeIpsxAC2w&tms=1762178910&hst=tv.ecanlitvizle.org&ip=40.76.181.209
+https://cdn504.freebroadcast.vip/beyaztv360.m3u8?tkn=Gz2ZcXg4JWz4JKdwJPq0ZA&tms=1762186315&hst=tv.ecanlitvizle.org&ip=52.159.229.57
