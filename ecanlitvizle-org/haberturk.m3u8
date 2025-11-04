@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn506.freebroadcast.vip/haberturk720.m3u8?tkn=pDQFtd8_zaWAcraiw807XA&tms=1762265326&hst=tv.ecanlitvizle.org&ip=52.237.143.52
+https://cdn505.freebroadcast.vip/haberturk720.m3u8?tkn=WeiNdXaQw5_BH_qKKQ0ezg&tms=1762272743&hst=tv.ecanlitvizle.org&ip=52.234.43.180
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn506.freebroadcast.vip/haberturk.m3u8?tkn=pDQFtd8_zaWAcraiw807XA&tms=1762265326&hst=tv.ecanlitvizle.org&ip=52.237.143.52
+https://cdn505.freebroadcast.vip/haberturk.m3u8?tkn=WeiNdXaQw5_BH_qKKQ0ezg&tms=1762272743&hst=tv.ecanlitvizle.org&ip=52.234.43.180
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn506.freebroadcast.vip/haberturk360.m3u8?tkn=pDQFtd8_zaWAcraiw807XA&tms=1762265326&hst=tv.ecanlitvizle.org&ip=52.237.143.52
+https://cdn505.freebroadcast.vip/haberturk360.m3u8?tkn=WeiNdXaQw5_BH_qKKQ0ezg&tms=1762272743&hst=tv.ecanlitvizle.org&ip=52.234.43.180
