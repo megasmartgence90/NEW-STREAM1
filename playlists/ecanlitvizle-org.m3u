@@ -185,6 +185,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/e
 #EXTINF:-1 tvg-id="" tvg-name="SAT 7 TÜRK TV" tvg-logo="https://tv.ecanlitvizle.org/logo/sat-7-turk-tv-canli.png",SAT 7 TÜRK TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/sat7turk.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="THTÜRK HABER" tvg-logo="https://tv.ecanlitvizle.org/logo/turk-haber-tv-canli.jpg",THTÜRK HABER
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/thturkhaber.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="BRTV" tvg-logo="https://tv.ecanlitvizle.org/logo/brtv-canli.png",BRTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/brtvkarabuk.m3u8
