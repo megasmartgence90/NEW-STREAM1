@@ -1,8 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720,CODECS="avc1.4d401f,mp4a.40.2",NAME="720p"
-https://cdn505.freebroadcast.vip/halktv720.m3u8?tkn=eWd6N_JSAokX0SL7IBFBmA&tms=1762337392&hst=tv.ecanlitvizle.org&ip=172.214.47.53
+https://cdn504.freebroadcast.vip/halktv720.m3u8?tkn=qRvku9QnpdHBiadg5GxU6w&tms=1762344579&hst=tv.ecanlitvizle.org&ip=48.214.53.177
 #EXT-X-STREAM-INF:BANDWIDTH=1200000,RESOLUTION=720x576,CODECS="avc1.42c01e,mp4a.40.2",NAME="480p"
-https://cdn505.freebroadcast.vip/halktv.m3u8?tkn=eWd6N_JSAokX0SL7IBFBmA&tms=1762337392&hst=tv.ecanlitvizle.org&ip=172.214.47.53
+https://cdn504.freebroadcast.vip/halktv.m3u8?tkn=qRvku9QnpdHBiadg5GxU6w&tms=1762344579&hst=tv.ecanlitvizle.org&ip=48.214.53.177
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360,CODECS="avc1.42c01e,mp4a.40.2",NAME="360p"
-https://cdn505.freebroadcast.vip/halktv360.m3u8?tkn=eWd6N_JSAokX0SL7IBFBmA&tms=1762337392&hst=tv.ecanlitvizle.org&ip=172.214.47.53
+https://cdn504.freebroadcast.vip/halktv360.m3u8?tkn=qRvku9QnpdHBiadg5GxU6w&tms=1762344579&hst=tv.ecanlitvizle.org&ip=48.214.53.177
