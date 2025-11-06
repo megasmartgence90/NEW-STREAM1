@@ -128,9 +128,6 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="Dünya Tv" tvg-logo="",Dünya Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/dunyatv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Meltem Tv" tvg-logo="",Meltem Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/meltemtv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Aksu Tv" tvg-logo="",Aksu Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/aksutv.m3u8
