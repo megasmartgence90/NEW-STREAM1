@@ -77,9 +77,6 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="Kanal B" tvg-logo="",Kanal B
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kanalb.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Bein Sports Haber" tvg-logo="",Bein Sports Haber
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/beinsporthaber.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="A Para" tvg-logo="",A Para
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/apara.m3u8
