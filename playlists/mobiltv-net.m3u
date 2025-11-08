@@ -251,6 +251,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="TRT Müzik" tvg-logo="",TRT Müzik
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/trtmuzik.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TRT 2" tvg-logo="",TRT 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/trt2.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ada Tv" tvg-logo="",Ada Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/adatv.m3u8
