@@ -4,7 +4,7 @@ import os
 
 def get_active_domain():
     for i in range(208, 1000):
-        domain = f"https://bosssports{i}.com"
+        domain = f"https://taraftarium24{i}.xyz"
         try:
             response = requests.get(domain, timeout=5)
             if response.status_code == 200:
