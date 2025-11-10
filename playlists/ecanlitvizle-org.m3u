@@ -92,6 +92,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/e
 #EXTINF:-1 tvg-id="" tvg-name="XEZER TV" tvg-logo="https://tv.ecanlitvizle.org/logo/xezer-tv-izle.png",XEZER TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/xezertv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AZ TV" tvg-logo="https://tv.ecanlitvizle.org/logo/az-tv-izle-azerbaycan-tv-izle.png",AZ TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/aztv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ARB 24" tvg-logo="https://tv.ecanlitvizle.org/logo/arb-24-az.png",ARB 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/arb24.m3u8
