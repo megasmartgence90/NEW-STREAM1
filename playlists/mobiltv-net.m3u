@@ -269,18 +269,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="BRTV" tvg-logo="",BRTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/brtvkarabuk.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Er Tv" tvg-logo="",Er Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/ertv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanal 7 Avrupa" tvg-logo="",Kanal 7 Avrupa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kanal7avrupa.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal 15" tvg-logo="",Kanal 15
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kanal15.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kanal 23" tvg-logo="",Kanal 23
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kanal23.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NR1 Türk Tv" tvg-logo="",NR1 Türk Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/nr1turktv.m3u8
@@ -296,36 +287,21 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="Kanal V" tvg-logo="",Kanal V
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kanalv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kıbrıs Genç Tv" tvg-logo="",Kıbrıs Genç Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kibrisgenctv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kıbrıs Tv" tvg-logo="",Kıbrıs Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kibristv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Koza Tv" tvg-logo="",Koza Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kozatv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Kudüs Tv" tvg-logo="",Kudüs Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/kudustv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Lalegül Tv" tvg-logo="",Lalegül Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/lalegultv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Mercan Tv" tvg-logo="",Mercan Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/mercantv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Vuslat Tv" tvg-logo="",Vuslat Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/vuslattv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TvDen" tvg-logo="",TvDen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/tvden.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tv5" tvg-logo="",Tv5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/tv5.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tv 41" tvg-logo="",Tv 41
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/tv41.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="ARB Tv" tvg-logo="",ARB Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/arbtv.m3u8
