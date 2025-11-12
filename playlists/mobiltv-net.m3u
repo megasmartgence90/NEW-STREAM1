@@ -80,9 +80,6 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="Bein Sports Haber" tvg-logo="",Bein Sports Haber
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/beinsporthaber.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="A Para" tvg-logo="",A Para
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/apara.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="",Disney Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/trtcocuk.m3u8
@@ -104,6 +101,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="Ekotürk" tvg-logo="",Ekotürk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/ekoturktv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Euro D" tvg-logo="",Euro D
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/eurod.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Xezer Tv" tvg-logo="",Xezer Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/xezertv.m3u8
@@ -227,6 +227,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="1 TV Georgia" tvg-logo="",1 TV Georgia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/1tvgeorgia.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Dost Tv" tvg-logo="",Dost Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/dosttv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FB Tv" tvg-logo="",FB Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/fbtv.m3u8
@@ -326,9 +329,6 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/m
 #EXTINF:-1 tvg-id="" tvg-name="ARB 24" tvg-logo="",ARB 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/arb24.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Minika Go" tvg-logo="",Minika Go
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/minikago.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Ekol Tv" tvg-logo="",Ekol Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/mobiltv-net/ekoltv.m3u8
