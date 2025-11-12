@@ -26,6 +26,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/e
 #EXTINF:-1 tvg-id="" tvg-name="TGRT HABER" tvg-logo="https://tv.ecanlitvizle.org/logo/tgrt-haber-tv-izle.png",TGRT HABER
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/tgrthaber.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ÜLKE TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ulke-tv-izle.png",ÜLKE TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/ulketv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="360 TV HD" tvg-logo="https://tv.ecanlitvizle.org/logo/360-tv-izle.png",360 TV HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/360tv.m3u8
@@ -44,6 +47,9 @@ https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/e
 #EXTINF:-1 tvg-id="" tvg-name="EKOL TV" tvg-logo="https://tv.ecanlitvizle.org/logo/ekol-tv-canli.png",EKOL TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/ekoltv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TELE1" tvg-logo="https://tv.ecanlitvizle.org/logo/tele-1-izle.png",TELE1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/tele1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KRT TV" tvg-logo="https://tv.ecanlitvizle.org/logo/krt-tv-canli.png",KRT TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://raw.githubusercontent.com/megasmartgence90/NEW-STREAM1/refs/heads/main/ecanlitvizle-org/krttv.m3u8
