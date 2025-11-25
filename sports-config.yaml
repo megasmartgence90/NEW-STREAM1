@@ -1,15 +1,8 @@
-site:
-  url: "https://trgoals1465.xyz/"
-  timeout: 10
-  user_agent: "Mozilla/5.0"
-
 channels:
   "https://vy2.04bf112a615942b34.sbs/yayin1.m3u8": "Canal 1"
   "https://vy2.04bf112a615942b34.sbs/yayin2.m3u8": "Canal 2"
 
 output:
   file: "trgoals-sports.m3u"
-  logo: "https://i.hizliresim.com/ska5t9e.jpg"
-  group: "SPORTS"
 
 update_interval_minutes: 15
