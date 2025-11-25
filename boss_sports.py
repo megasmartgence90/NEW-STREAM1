@@ -1,40 +1,116 @@
 import requests
 import re
-import os
 
-def get_active_domain():
-    for i in range(208, 1000):
-        domain = f"https://bosssports{i}.com"
-        try:
-            response = requests.get(domain, timeout=5)
-            if response.status_code == 200:
-                return domain
-        except:
-            continue
-    return None
+print("Test")
 
-def get_iframe_src(domain):
+active_domain = None
+REF_SITE = None
+
+for i in range(1, 100):
+    test_site = f"https://ontvizle{i}.live"
     try:
-        response = requests.get(domain)
-        src_match = re.search(r'src="(/play\.html\?[^"]+)"', response.text)
-        return src_match.group(1) if src_match else None
+        r = requests.get(test_site, timeout=5)
+        if r.status_code == 200 and len(r.text) > 500:
+            active_domain = test_site
+            REF_SITE = test_site
+            print(f"Active domain found: {active_domain}")
+            break
     except:
-        return None
+        pass
 
-def create_m3u(domain, iframe_src):
-    params_match = re.search(r'_1=([^&]+)&_2=([^&]+)', iframe_src)
-    if not params_match:
-        return None
+if not active_domain:
+    print("No active domain found.")
+    exit()
+
+print("Scanning source code...")
+html = requests.get(active_domain).text
+all_m3u8 = re.findall(r'https?://[^\'" ]+\.m3u8', html)
+
+if not all_m3u8:
+    print("No m3u8 links found.")
+    exit()
+
+domains = list(set([link.split("/")[0] + "//" + link.split("/")[2] for link in all_m3u8]))
+print(f"Found stream domains: {domains}")
+
+working_stream_domain = None
+test_headers = {
+    "Referer": REF_SITE,
+    "Origin": REF_SITE,
+    "User-Agent": "Mozilla/5.0"
+}
+
+print("Testing domains...")
+
+for domain in domains:
+    test_url = f"{domain}/705/mono.m3u8"
+    try:
+        r = requests.get(test_url, headers=test_headers, timeout=5)
+        if r.status_code == 200 and "#EXTM3U" in r.text[:100]:
+            working_stream_domain = domain
+            print(f"ACTIVE STREAM: {domain}")
+            break
+        else:
+            print(f"Inactive: {domain}")
+    except:
+        print(f"Error: {domain}")
+
+if not working_stream_domain:
+    print("No working stream domain found.")
+    exit()
+
+channels = {
+    701: "beIN sport 1",
+    702: "beIN sport 2",
+    703: "beIN sport 3",
+    704: "beIN sport 4",
+    705: "S sport 1",
+    706: "Tivibu sport 1",
+    707: "smart sport 1",
+    708: "Tivibu spor",
+    709: "a spor",
+    710: "smart sport 2",
+    711: "Tivibu sport 2",
+    713: "Tivibu sport 4",
+    715: "beIN sport max 2",
+    730: "S sport 2",
+    "tabii": "tabii spor",
+    "tabii1": "tabii spor 1",
+    "tabii2": "tabii spor 2", 
+    "tabii3": "tabii spor 3",
+    "tabii4": "tabii spor 4",
+    "tabii5": "tabii spor 5",
+    "tabii6": "tabii spor 6"
+}
+
+print("Adding channels...")
+
+m3u = "#EXTM3U\n\n"
+
+for cid, name in channels.items():
+    stream_url = f"{working_stream_domain}/{cid}/mono.m3u8"
+    try:
+        r = requests.head(stream_url, headers=test_headers, timeout=5)
+        if r.status_code == 200:
+            print(f"ADDED: {name}")
+        else:
+            print(f"INACTIVE: {name}")
+    except:
+        print(f"ERROR: {name}")
     
-    pages_dev = params_match.group(1)
-    hash_code = params_match.group(2)
-    
-    channels = [
-        {"id": "777", "name": "beIN Sports 1"},
-        {"id": "778", "name": "beIN Sports 2"},
-        {"id": "779", "name": "beIN Sports 3"},
-        {"id": "780", "name": "beIN Sports 4"},
-        {"id": "781", "name": "beIN Sports Max 1"},
+    m3u += f'''#EXTINF:-1 tvg-logo="https://i.hizliresim.com/ska5t9e.jpg" group-title="SPORTS", {name}
+#EXTVLCOPT:http-referrer={REF_SITE}
+#EXTVLCOPT:http-origin={REF_SITE}
+{stream_url}
+
+'''
+
+file_name = "DeaTHLesS-sports.m3u"
+with open(file_name, "w", encoding="utf-8") as f:
+    f.write(m3u)
+
+print("Complete!")
+print(f"File created: {file_name}")        {"id": "781", "name": "beIN Sports Max 1"},
         {"id": "782", "name": "beIN Sports Max 2"},
         {"id": "786", "name": "beIN Sports 5"},
         {"id": "763", "name": "S Sport"},
