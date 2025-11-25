@@ -1,6 +1,7 @@
 import requests
 import re
 import yaml
+import os
 
 # Load YAML
 with open("sports-config.yaml", "r", encoding="utf-8") as f:
@@ -14,14 +15,14 @@ output = cfg["output"]
 
 print("Starting auto M3U generator...\n")
 
-# Build base headers
+# Build headers
 base_headers = {
     "User-Agent": headers_cfg["user_agent"]
 }
 
 active_domain = None
 
-# Step 1 — Find active main page
+# STEP 1 — Find active website
 print("Scanning domains for active REF_SITE...")
 
 for i in range(domain_cfg["scan_start"], domain_cfg["scan_end"]):
@@ -39,22 +40,22 @@ if not active_domain:
     print("❌ No active domain found.")
     exit()
 
-# Step 2 — Extract stream domains
+# STEP 2 — Extract m3u8 links (stream servers)
 print("\nExtracting stream domains...")
 html = requests.get(active_domain, headers=base_headers).text
-m3u_links = re.findall(r'https?://[^\'" ]+\.m3u8', html)
+m3u_links = re.findall(r'https?://[^\'\" ]+\.m3u8', html)
 
 if not m3u_links:
     print("❌ No stream links found.")
     exit()
 
-stream_domains = list(set([link.split("/")[0] + "//" + link.split("/")[2] for link in m3u_links]))
+stream_domains = list({url.split('/')[0] + '//' + url.split('/')[2] for url in m3u_links})
 print(f"Found domains: {stream_domains}")
 
-# Step 3 — Find active stream domain
+# STEP 3 — Test stream domains
 print("\nChecking stream domains...")
-working_domain = None
 
+working_domain = None
 test_path = f"/{stream_cfg['test_channel']}/{stream_cfg['test_file']}"
 
 stream_headers = {
@@ -80,7 +81,7 @@ if not working_domain:
     print("❌ No working stream domain.")
     exit()
 
-# Step 4 — Build M3U
+# STEP 4 — Build M3U Playlist
 print("\nGenerating M3U playlist...\n")
 
 m3u = "#EXTM3U\n\n"
