@@ -5,8 +5,5 @@ site:
 
 output:
   file: "trgoals-sports.m3u"
-  logo: "https://i.hizliresim.com/ska5t9e.jpg"
-  group: "SPORTS"
-
 update_interval_minutes: 15
 
