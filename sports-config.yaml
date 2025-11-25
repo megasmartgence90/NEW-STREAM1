@@ -4,8 +4,9 @@ site:
   user_agent: "Mozilla/5.0"
 
 output:
-  file: "https://trgoals.m3u"
+  file: "trgoals-sports.m3u"
   logo: "https://i.hizliresim.com/ska5t9e.jpg"
   group: "SPORTS"
 
 update_interval_minutes: 15
+
