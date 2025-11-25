@@ -1,5 +1,4 @@
 import requests
-import re
 import yaml
 import os
 
@@ -11,44 +10,35 @@ site_url = cfg["site"]["url"]
 timeout = cfg["site"]["timeout"]
 user_agent = cfg["site"]["user_agent"]
 
+channels = cfg["channels"]
 output_file = cfg["output"]["file"]
 logo_url = cfg["output"]["logo"]
 group_name = cfg["output"]["group"]
 
-headers = {"User-Agent": user_agent}
+headers = {
+    "User-Agent": user_agent,
+    "Referer": site_url,
+    "Origin": site_url
+}
 
-print(f"Scanning site: {site_url}")
-
-try:
-    r = requests.get(site_url, headers=headers, timeout=timeout)
-    html = r.text
-except Exception as e:
-    print(f"Error fetching site: {e}")
-    exit()
-
-# Find all m3u8 links
-m3u_links = re.findall(r'https?://[^\'" ]+\.m3u8', html)
-
-if not m3u_links:
-    print("No m3u8 links found.")
-    exit()
-
-print(f"Found {len(m3u_links)} m3u8 links.")
-
-# Build M3U content
 m3u_content = "#EXTM3U\n\n"
 
-for link in m3u_links:
-    # Extract channel name from URL
-    chan_name = link.split('/')[-1].replace('.m3u8','')
-    m3u_content += f'''#EXTINF:-1 tvg-logo="{logo_url}" group-title="{group_name}", {chan_name}
+for link, chan_name in channels.items():
+    try:
+        r = requests.head(link, headers=headers, timeout=5)
+        if r.status_code == 200:
+            m3u_content += f'''#EXTINF:-1 tvg-logo="{logo_url}" group-title="{group_name}", {chan_name}
 {link}
 
 '''
+            print(f"✔ Added: {chan_name}")
+        else:
+            print(f"- Offline: {chan_name}")
+    except Exception as e:
+        print(f"- Error checking {chan_name}: {e}")
 
-# Save M3U file
 output_path = os.path.join(os.getcwd(), output_file)
 with open(output_path, "w", encoding="utf-8") as f:
     f.write(m3u_content)
 
-print(f"M3U file created: {output_path}")
+print(f"\n✅ M3U file created: {output_path}")
