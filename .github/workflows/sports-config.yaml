@@ -1,42 +1,33 @@
-settings:
-  user_agent: "Mozilla/5.0"
-  domain_pattern: "https://ontvizle{n}.live"
-  domain_scan_start: 1
-  domain_scan_end: 100
-  timeout: 5
-  min_html_length: 500
+name: Auto M3U Generator
 
-paths:
-  stream_test_path: "/705/mono.m3u8"
-  stream_suffix: "mono.m3u8"
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # hər 6 saatda bir
+  workflow_dispatch:
 
-channels:
-  701: "beIN sport 1"
-  702: "beIN sport 2"
-  703: "beIN sport 3"
-  704: "beIN sport 4"
-  705: "S sport 1"
-  706: "Tivibu sport 1"
-  707: "smart sport 1"
-  708: "Tivibu spor"
-  709: "a spor"
-  710: "smart sport 2"
-  711: "Tivibu sport 2"
-  713: "Tivibu sport 4"
-  715: "beIN sport max 2"
-  730: "S sport 2"
-  tabii: "tabii spor"
-  tabii1: "tabii spor 1"
-  tabii2: "tabii spor 2"
-  tabii3: "tabii spor 3"
-  tabii4: "tabii spor 4"
-  tabii5: "tabii spor 5"
-  tabii6: "tabii spor 6"
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-output:
-  file_name: "DeaTHLesS-sports.m3u"
-  logo_url: "https://i.hizliresim.com/ska5t9e.jpg"
-  group_title: "SPORTS"          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add *.m3u || echo "Dosya eklenemedi"
-          git commit -m "🔄 M3U dosyası otomatik güncellendi" || echo "Commit yapılacak değişiklik yok"
-          git push || echo "Push işlemi başarısız oldu"
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Run script
+        run: python build.py
+
+      - name: Commit & Push updated M3U
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add DeaTHLesS-sports.m3u
+          git commit -m "Auto update M3U"
+          git push
