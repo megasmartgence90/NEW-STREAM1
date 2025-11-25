@@ -1,42 +1,11 @@
-domain:
-  pattern: "https://trgoals1465.xyz/"
-  scan_start: 1
-  scan_end: 100
-  min_html_length: 500
-  timeout: 5
-
-headers:
+site:
+  url: "https://trgoals1465.xyz/"
+  timeout: 10
   user_agent: "Mozilla/5.0"
 
-stream:
-  test_channel: 705
-  test_file: "mono.m3u8"
-  suffix: "mono.m3u8"
-
-channels:
-  701: "beIN sport 1"
-  702: "beIN sport 2"
-  703: "beIN sport 3"
-  704: "beIN sport 4"
-  705: "S sport 1"
-  706: "Tivibu sport 1"
-  707: "smart sport 1"
-  708: "Tivibu spor"
-  709: "a spor"
-  710: "smart sport 2"
-  711: "Tivibu sport 2"
-  713: "Tivibu sport 4"
-  715: "beIN sport max 2"
-  730: "S sport 2"
-  tabii: "tabii spor"
-  tabii1: "tabii spor 1"
-  tabii2: "tabii spor 2"
-  tabii3: "tabii spor 3"
-  tabii4: "tabii spor 4"
-  tabii5: "tabii spor 5"
-  tabii6: "tabii spor 6"
-
 output:
-  file: "DeaTHLesS-sports.m3u"
+  file: "trgoals-sports.m3u"
   logo: "https://i.hizliresim.com/ska5t9e.jpg"
   group: "SPORTS"
+
+update_interval_minutes: 15
